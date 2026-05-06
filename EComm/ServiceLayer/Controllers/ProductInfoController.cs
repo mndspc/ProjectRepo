@@ -111,7 +111,7 @@ namespace ServiceLayer.Controllers
         }
 
 
-        [HttpPut("UpdateProduct")]
+        [HttpPut("EditProduct")]
         [Produces("application/json")]
         [Consumes("application/json")]
         //[Authorize(Roles = "Admin")]
